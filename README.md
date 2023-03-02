@@ -70,3 +70,16 @@ imagedata           .. file: 370 XA sysV pure executable not stripped - version 
 b3,rgb,lsb,xy       .. text: "SuperSecretMessage"
 ```
 - Challenge [click here](https://play.picoctf.org/practice/challenge/305?category=4&page=4)
+
+ ## Binwalk
+ Hiding files within other files.
+ - to install tool :
+  ```
+  <br><code class="language-plaintext highlighter-rouge">sudo apt-get install binwalk</code> 
+  ```
+- To extract, use <code class="language-plaintext highlighter-rouge">binwalk -e File_name</code> .  
+- To extract all files, run <code class="language-plaintext highlighter-rouge"> binwalk --dd='.*' [filename]</code> .
+  
+ <img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://hackinglethani.com/wp-content/uploads/2018/09/1-5.png" width="629" height="272">
+  
+ - challenge [click here](https://ctflearn.com/challenge/108/8406)
