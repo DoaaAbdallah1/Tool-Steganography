@@ -69,3 +69,4 @@ gem install zsteg
 imagedata           .. file: 370 XA sysV pure executable not stripped - version 768
 b3,rgb,lsb,xy       .. text: "SuperSecretMessage"
 ```
+- Challenge [click here](https://play.picoctf.org/practice/challenge/305?category=4&page=4)
