@@ -116,3 +116,19 @@ you can either hide the data (file) inside an image or extract the data from the
 ```
 java -jar openstego.jar
 ```
+
+## Sheet 1
+
+[Challenge 1](https://ctflearn.com/challenge/108)
+
+[Challenge 2](https://cybertalents.com/challenges/forensics/hidden-message)
+
+[Challenge 3](https://cybertalents.com/challenges/forensics/message-in-bottle)
+
+[Challenge 4](https://cybertalents.com/challenges/forensics/i-love-images)
+
+[Challenge 5](https://cybertalents.com/challenges/forensics/keep-it-simple)
+
+[Challenge 6](https://cybertalents.com/challenges/forensics/hack-a-nice-day)
+
+[Challenge 7](https://play.picoctf.org/practice/challenge/44?category=4&page=1)
