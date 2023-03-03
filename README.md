@@ -75,7 +75,7 @@ b3,rgb,lsb,xy       .. text: "SuperSecretMessage"
  Hiding files within other files.
  - to install tool :
   ```
-  <br><code class="language-plaintext highlighter-rouge">sudo apt-get install binwalk</code> 
+ sudo apt-get install binwalk 
   ```
 - To extract, use <code class="language-plaintext highlighter-rouge">binwalk -e File_name</code> .  
 - To extract all files, run <code class="language-plaintext highlighter-rouge"> binwalk --dd='.*' [filename]</code> .
