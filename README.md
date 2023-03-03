@@ -83,3 +83,21 @@ b3,rgb,lsb,xy       .. text: "SuperSecretMessage"
  <img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://hackinglethani.com/wp-content/uploads/2018/09/1-5.png" width="629" height="272">
   
  - challenge [click here](https://ctflearn.com/challenge/108/8406)
+
+## Stegseek
+<p dir="auto">Stegseek is a lightning fast steghide cracker that can be used to extract hidden data from files. It is built as a fork of the original steghide project and, as a result, it is <em>thousands of times</em> faster than other crackers and can run through the entirety of <strong><code>rockyou.txt</code>* in under 2 seconds.</strong></p>
+<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);" src="https://raw.githubusercontent.com/RickdeJager/stegseek/master/.demo/crack.gif" width="629" height="205">
+
+<p dir="auto">On recent Ubuntu and other Debian-based systems, you can use the provided <code>.deb</code> package for installation:</p>
+<ol dir="auto">
+
+<li>Download the latest <a href="https://github.com/RickdeJager/stegseek/releases">Stegseek release</a></li>
+<li>Install the <code>.deb</code> file using <code>sudo apt install ./stegseek_0.6-1.deb</code></li>
+</ol>
+
+- <strong>use tool</strong> :
+
+```
+stegseek [stegofile.jpg] [wordlist.txt]
+```
+- <strong>How to install rockyou.txt</strong> :[click here](https://www.geeksforgeeks.org/how-to-extract-rockyou-txt-gz-file-in-kali-linux/)
