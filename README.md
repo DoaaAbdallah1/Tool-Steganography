@@ -101,3 +101,18 @@ b3,rgb,lsb,xy       .. text: "SuperSecretMessage"
 stegseek [stegofile.jpg] [wordlist.txt]
 ```
 - <strong>How to install rockyou.txt</strong> :[click here](https://www.geeksforgeeks.org/how-to-extract-rockyou-txt-gz-file-in-kali-linux/)
+
+## Opensteg 
+you can either hide the data (file) inside an image or extract the data from the image.
+<h4>Hide data</h4>
+<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://www.openstego.com/image/screenshot/01.png" width="629" height="366">
+<h4>Extract data</h4>
+<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://www.openstego.com/image/screenshot/02.png" width="629" height="366">
+
+- install openstego :[click here](https://github.com/syvaidya/openstego/releases/tag/openstego-0.6.1)
+
+- use to openstego
+
+```
+java -jar openstego.jar
+```
